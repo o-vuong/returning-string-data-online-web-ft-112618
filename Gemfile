@@ -35,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'pry-byebug'
   gem 'rspec-rails', '~> 3.0'
-  gem 'capybara'
+  gem 'capybara', '>= 3.7.0'
   gem 'database_cleaner'
   gem 'annotate'
 end
